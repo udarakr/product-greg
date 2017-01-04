@@ -743,6 +743,11 @@
                 <artifactId>wsdl4j</artifactId>
                 <version>${orbit.version.wsdl4j}</version>
             </dependency>
+            <dependency>
+                <groupId>org.wso2.carbon.identity.metadata.saml2</groupId>
+                <artifactId>org.wso2.carbon.identity.sp.metadata.saml2</artifactId>
+                <version>${carbon.identity.metadata.smal2.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -951,8 +956,8 @@
         <carbon.feature.version>1.5.5</carbon.feature.version>
         <uuid.feature.version>1.5.5</uuid.feature.version>
         <sso.feature.version>1.5.5</sso.feature.version>
-        <es.feature.version>2.4.6</es.feature.version>
-        <carbon.social.version>2.4.6</carbon.social.version>
+        <es.feature.version>2.4.7-SNAPSHOT</es.feature.version>
+        <carbon.social.version>2.4.7-SNAPSHOT</carbon.social.version>
         <i18n.feature.version>1.5.5</i18n.feature.version>
         <!--<event.feature.version>1.0.0</event.feature.version>-->
         <!--<login.feature.version>1.0.0</login.feature.version>-->
@@ -1014,7 +1019,7 @@
 
         <!-- Carbon Kernel -->
 
-        <carbon.kernel.version>4.4.7</carbon.kernel.version>
+        <carbon.kernel.version>4.4.11</carbon.kernel.version>
         <carbon.kernel.package.import.version.range>[4.4.0, 4.5.0)
         </carbon.kernel.package.import.version.range>
 
@@ -1035,13 +1040,14 @@
         <!-- Carbon Commons -->
         <carbon.commons.version>4.5.4</carbon.commons.version>
         <!-- Carbon Identity -->
-        <carbon.identity.framework.version>5.6.17</carbon.identity.framework.version>
+        <carbon.identity.framework.version>5.7.0</carbon.identity.framework.version>
         <identity.application.auth.basic.auth.version>5.3.0</identity.application.auth.basic.auth.version>
         <identity.auth.saml2.version>5.2.0</identity.auth.saml2.version>
         <identity.applicatoin.oauth.oidc.version>5.1.1</identity.applicatoin.oauth.oidc.version>
         <identity.inbound.auth.oidc.version>5.1.1</identity.inbound.auth.oidc.version>
         <identity.inbound.auth.saml.version>5.3.0</identity.inbound.auth.saml.version>
         <identity.inbound.auth.openid.version>5.2.1</identity.inbound.auth.openid.version>
+        <carbon.identity.metadata.smal2.version>1.0.0</carbon.identity.metadata.smal2.version>
         <carbon.identity.um.version>5.1.4</carbon.identity.um.version>
 
         <carbon.deployment.version>4.7.0</carbon.deployment.version>

@@ -402,9 +402,8 @@
                                     org.wso2.carbon.identity.framework:org.wso2.carbon.claim.mgt.feature:${carbon.identity.framework.version}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.application.auth.basic:org.wso2.carbon.identity.application.authenticator.basicauth.server.feature:${identity.application.auth.basic.auth.version}
-                                </featureArtifactDef>
-
+                                     org.wso2.carbon.identity.application.auth.basic:org.wso2.carbon.identity.application.authenticator.basicauth.server.feature:${identity.application.auth.basic.auth.version}
+                                 </featureArtifactDef>
 				<featureArtifactDef>
                                     org.wso2.carbon.identity.framework:org.wso2.carbon.identity.mgt.feature:${carbon.identity.framework.version}
                                 </featureArtifactDef>
@@ -417,6 +416,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.identity.framework:org.wso2.carbon.identity.user.registration.ui.feature:${carbon.identity.framework.version}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity.framework:org.wso2.carbon.identity.core.server.feature:${carbon.identity.framework.version}
                                 </featureArtifactDef>
                                 <!--Reporting feature list -->
                                 <featureArtifactDef>
@@ -474,6 +476,9 @@
                                 <feaureArtifactDef>
                                     org.wso2.ciphertool:org.wso2.ciphertool.feature:${ciphertool.version}
                                 </feaureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity.metadata.saml2:org.wso2.carbon.identity.sp.metadata.saml2.server.feature:${carbon.identity.metadata.smal2.version}
+                                </featureArtifactDef>
                             </featureArtifacts>
                         </configuration>
                     </execution>
@@ -737,6 +742,10 @@
                                 </feature>
                                 <feature>
                                     <id>org.wso2.carbon.identity.user.registration.ui.feature.group</id>
+                                    <version>${carbon.identity.framework.version}</version>
+                                </feature>
+                                <feature>
+                                    <id>org.wso2.carbon.identity.core.server.feature.group</id>
                                     <version>${carbon.identity.framework.version}</version>
                                 </feature>
 
@@ -1028,6 +1037,10 @@
                                     <id>org.wso2.ciphertool.feature.group</id>
                                     <version>${ciphertool.version}</version>
                                 </feature>
+                                <feature>
+                                    <id>org.wso2.carbon.identity.sp.metadata.saml2.server.feature.group</id>
+                                    <version>${carbon.identity.metadata.smal2.version}</version>
+                                </feature>
                             </features>
                         </configuration>
                     </execution>
@@ -1154,6 +1167,10 @@
                                 </feature>
                                 <feature>
                                     <id>org.wso2.carbon.identity.user.registration.ui.feature.group</id>
+                                    <version>${carbon.identity.framework.version}</version>
+                                </feature>
+                                <feature>
+                                    <id>org.wso2.carbon.identity.core.server.feature.group</id>
                                     <version>${carbon.identity.framework.version}</version>
                                 </feature>
 
@@ -1366,6 +1383,10 @@
                                     <id>org.wso2.ciphertool.feature.group</id>
                                     <version>${ciphertool.version}</version>
                                 </feature>-->
+                                <feature>
+                                    <id>org.wso2.carbon.identity.sp.metadata.saml2.server.feature.group</id>
+                                    <version>${carbon.identity.metadata.smal2.version}</version>
+                                </feature>
                             </features>
                         </configuration>
                     </execution>
@@ -1564,6 +1585,10 @@
                                 </feature>
                                 <feature>
                                     <id>org.wso2.carbon.identity.user.registration.ui.feature.group</id>
+                                    <version>${carbon.identity.framework.version}</version>
+                                </feature>
+                                <feature>
+                                    <id>org.wso2.carbon.identity.core.server.feature.group</id>
                                     <version>${carbon.identity.framework.version}</version>
                                 </feature>
 
@@ -1780,6 +1805,10 @@
                                 <feature>
                                     <id>org.apache.axis2.transport.mail.feature.group</id>
                                     <version>${axis2-transports.wso2.version}</version>
+                                </feature>
+                                <feature>
+                                    <id>org.wso2.carbon.identity.sp.metadata.saml2.server.feature.group</id>
+                                    <version>${carbon.identity.metadata.smal2.version}</version>
                                 </feature>
 
 				<!--

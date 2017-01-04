@@ -697,6 +697,7 @@
 		<include>**/sso-idp-config.xml</include>
             </includes>
         </fileSet>
+
 	<fileSet>
             <directory>
                 ../p2-profile-gen/target/wso2carbon-core-${carbon.kernel.version}/repository/resources/identity/pages
@@ -980,6 +981,12 @@
         <file>
             <source>src/main/resources/carbon-home/conf/security/Owasp.CsrfGuard.Carbon.properties</source>
             <outputDirectory>${pom.artifactId}-${build.version}/repository/conf/security</outputDirectory>
+            <filtered>true</filtered>
+            <fileMode>644</fileMode>
+        </file>
+        <file>
+            <source>src/main/resources/carbon-home/conf/user-mgt.xml</source>
+            <outputDirectory>${pom.artifactId}-${build.version}/repository/conf</outputDirectory>
             <filtered>true</filtered>
             <fileMode>644</fileMode>
         </file>
